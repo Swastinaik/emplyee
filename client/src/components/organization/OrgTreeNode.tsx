@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import { OrgTreeNode as TreeNodeType } from '../../../../server/src/services/organizationService'; // Just reference the type shape
 import { FiChevronDown, FiChevronRight, FiUser, FiEye } from 'react-icons/fi';
 
 interface NodeProps {
@@ -28,11 +27,10 @@ export default function OrgTreeNode({ node, searchQuery }: NodeProps) {
 
       {/* Node Content */}
       <div
-        className={`inline-flex items-center gap-4 bg-white border rounded-2xl p-4 shadow-sm min-w-[280px] max-w-sm transition-all duration-300 relative z-10 ${
-          isMatch
+        className={`inline-flex items-center gap-4 bg-white border rounded-2xl p-4 shadow-sm min-w-[280px] max-w-sm transition-all duration-300 relative z-10 ${isMatch
             ? 'ring-2 ring-indigo-500 border-indigo-200 bg-indigo-50/20'
             : 'border-slate-200 hover:border-slate-300 hover:shadow-md'
-        }`}
+          }`}
       >
         {/* Toggle Expand Button for Children */}
         {hasChildren && (
