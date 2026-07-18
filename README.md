@@ -13,11 +13,11 @@ A comprehensive, full-stack, enterprise-grade Employee Management System featuri
 
 2. Dashboard page
 
-![alt text](<Screenshot 2026-07-18 132452-1.png>)
+![alt text](image-1.png)
 
 3. Employee management
 
-![alt text](<Screenshot 2026-07-18 132509.png>)
+![alt text](<assets/Screenshot 2026-07-18 132509.png>)
 
 
 ## Architecture & Tech Stack
