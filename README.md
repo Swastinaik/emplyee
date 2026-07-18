@@ -4,6 +4,22 @@ A comprehensive, full-stack, enterprise-grade Employee Management System featuri
 
 ---
 
+
+## Screenshots
+
+1. Login page
+
+![alt text](image.png)
+
+2. Dashboard page
+
+![alt text](<Screenshot 2026-07-18 132452-1.png>)
+
+3. Employee management
+
+![alt text](<Screenshot 2026-07-18 132509.png>)
+
+
 ## Architecture & Tech Stack
 
 This project is separated into a client-server architecture:
